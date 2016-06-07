@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8A99C63EA5337B012446A36 /* libPods-ADCC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C75871384364E55FD92B0380 /* libPods-ADCC.a */; };
+		BD54E0C61D06ACE7001B6329 /* ADCCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD54E0C51D06ACE7001B6329 /* ADCCTests.m */; };
+		BD54E0DF1D06AE52001B6329 /* ADCC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD54E0D21D06AE52001B6329 /* ADCC.xcdatamodeld */; };
+		BD54E0E01D06AE52001B6329 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD54E0D61D06AE52001B6329 /* ViewController.m */; };
+		BD54E0E11D06AE52001B6329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD54E0D81D06AE52001B6329 /* Assets.xcassets */; };
+		BD54E0E21D06AE52001B6329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD54E0D91D06AE52001B6329 /* LaunchScreen.storyboard */; };
+		BD54E0E31D06AE52001B6329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD54E0DB1D06AE52001B6329 /* Main.storyboard */; };
+		BD54E0E41D06AE52001B6329 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD54E0DD1D06AE52001B6329 /* main.m */; };
+		BD54E0E81D06B095001B6329 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD54E0E71D06B095001B6329 /* AppDelegate.m */; };
+		BD6CBE5F1D06BCA1003B2276 /* SGGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6CBE5E1D06BCA1003B2276 /* SGGlobal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD54E0C21D06ACE7001B6329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD54E09D1D06ACE6001B6329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD54E0A41D06ACE6001B6329;
+			remoteInfo = ADCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5564634B3840D48551AAF961 /* Pods-ADCC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADCC/Pods-ADCC.debug.xcconfig"; sourceTree = "<group>"; };
+		842ABD1BD0EB74977E440C78 /* Pods-ADCC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADCC.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADCC/Pods-ADCC.release.xcconfig"; sourceTree = "<group>"; };
+		BD54E0A51D06ACE6001B6329 /* ADCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD54E0C11D06ACE7001B6329 /* ADCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD54E0C51D06ACE7001B6329 /* ADCCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCCTests.m; sourceTree = "<group>"; };
+		BD54E0C71D06ACE7001B6329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD54E0D01D06AE52001B6329 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		BD54E0D31D06AE52001B6329 /* ADCC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ADCC.xcdatamodel; sourceTree = "<group>"; };
+		BD54E0D51D06AE52001B6329 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD54E0D61D06AE52001B6329 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD54E0D81D06AE52001B6329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD54E0DA1D06AE52001B6329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD54E0DC1D06AE52001B6329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD54E0DD1D06AE52001B6329 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD54E0E61D06B095001B6329 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD54E0E71D06B095001B6329 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD54E0EB1D06B0F3001B6329 /* ADCC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADCC-Prefix.pch"; sourceTree = "<group>"; };
+		BD6CBE5B1D06B571003B2276 /* SGDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGDefine.h; sourceTree = "<group>"; };
+		BD6CBE5D1D06BCA1003B2276 /* SGGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGlobal.h; sourceTree = "<group>"; };
+		BD6CBE5E1D06BCA1003B2276 /* SGGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGlobal.m; sourceTree = "<group>"; };
+		C75871384364E55FD92B0380 /* libPods-ADCC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADCC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD54E0A21D06ACE6001B6329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A99C63EA5337B012446A36 /* libPods-ADCC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54E0BE1D06ACE7001B6329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35ACE23ED6A096A717D6F774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C75871384364E55FD92B0380 /* libPods-ADCC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D4A42D69994D08FD86CFDE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5564634B3840D48551AAF961 /* Pods-ADCC.debug.xcconfig */,
+				842ABD1BD0EB74977E440C78 /* Pods-ADCC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD54E09C1D06ACE6001B6329 = {
+			isa = PBXGroup;
+			children = (
+				BD54E0A71D06ACE6001B6329 /* ADCC */,
+				BD54E0C41D06ACE7001B6329 /* ADCCTests */,
+				BD54E0A61D06ACE6001B6329 /* Products */,
+				9D4A42D69994D08FD86CFDE1 /* Pods */,
+				35ACE23ED6A096A717D6F774 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD54E0A61D06ACE6001B6329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD54E0A51D06ACE6001B6329 /* ADCC.app */,
+				BD54E0C11D06ACE7001B6329 /* ADCCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD54E0A71D06ACE6001B6329 /* ADCC */ = {
+			isa = PBXGroup;
+			children = (
+				BD54E0E91D06B0CC001B6329 /* Global */,
+				BD54E0EA1D06B0CC001B6329 /* ThirdPart */,
+				BD54E0D11D06AE52001B6329 /* Model */,
+				BD54E0D41D06AE52001B6329 /* Module */,
+				BD54E0D71D06AE52001B6329 /* Supporting Files */,
+			);
+			path = ADCC;
+			sourceTree = "<group>";
+		};
+		BD54E0C41D06ACE7001B6329 /* ADCCTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD54E0C51D06ACE7001B6329 /* ADCCTests.m */,
+				BD54E0C71D06ACE7001B6329 /* Info.plist */,
+			);
+			path = ADCCTests;
+			sourceTree = "<group>";
+		};
+		BD54E0D11D06AE52001B6329 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD54E0D21D06AE52001B6329 /* ADCC.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD54E0D41D06AE52001B6329 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BD54E0D51D06AE52001B6329 /* ViewController.h */,
+				BD54E0D61D06AE52001B6329 /* ViewController.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BD54E0D71D06AE52001B6329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD54E0E61D06B095001B6329 /* AppDelegate.h */,
+				BD54E0E71D06B095001B6329 /* AppDelegate.m */,
+				BD54E0D01D06AE52001B6329 /* Info.plist */,
+				BD54E0D81D06AE52001B6329 /* Assets.xcassets */,
+				BD54E0D91D06AE52001B6329 /* LaunchScreen.storyboard */,
+				BD54E0DB1D06AE52001B6329 /* Main.storyboard */,
+				BD54E0DD1D06AE52001B6329 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD54E0E91D06B0CC001B6329 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				BD54E0EB1D06B0F3001B6329 /* ADCC-Prefix.pch */,
+				BD6CBE5B1D06B571003B2276 /* SGDefine.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		BD54E0EA1D06B0CC001B6329 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				BD6CBE5C1D06BCA1003B2276 /* SGSupport */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		BD6CBE5C1D06BCA1003B2276 /* SGSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BD6CBE5D1D06BCA1003B2276 /* SGGlobal.h */,
+				BD6CBE5E1D06BCA1003B2276 /* SGGlobal.m */,
+			);
+			path = SGSupport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD54E0A41D06ACE6001B6329 /* ADCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD54E0CA1D06ACE7001B6329 /* Build configuration list for PBXNativeTarget "ADCC" */;
+			buildPhases = (
+				E6AB72BC878B888846E96FCA /* Check Pods Manifest.lock */,
+				BD54E0A11D06ACE6001B6329 /* Sources */,
+				BD54E0A21D06ACE6001B6329 /* Frameworks */,
+				BD54E0A31D06ACE6001B6329 /* Resources */,
+				42F3A4325BB55D40E54591B6 /* Embed Pods Frameworks */,
+				7DA6B47A648971259074CF6A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADCC;
+			productName = ADCC;
+			productReference = BD54E0A51D06ACE6001B6329 /* ADCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD54E0C01D06ACE7001B6329 /* ADCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD54E0CD1D06ACE7001B6329 /* Build configuration list for PBXNativeTarget "ADCCTests" */;
+			buildPhases = (
+				BD54E0BD1D06ACE7001B6329 /* Sources */,
+				BD54E0BE1D06ACE7001B6329 /* Frameworks */,
+				BD54E0BF1D06ACE7001B6329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD54E0C31D06ACE7001B6329 /* PBXTargetDependency */,
+			);
+			name = ADCCTests;
+			productName = ADCCTests;
+			productReference = BD54E0C11D06ACE7001B6329 /* ADCCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD54E09D1D06ACE6001B6329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "山国";
+				TargetAttributes = {
+					BD54E0A41D06ACE6001B6329 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BD54E0C01D06ACE7001B6329 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BD54E0A41D06ACE6001B6329;
+					};
+				};
+			};
+			buildConfigurationList = BD54E0A01D06ACE6001B6329 /* Build configuration list for PBXProject "ADCC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD54E09C1D06ACE6001B6329;
+			productRefGroup = BD54E0A61D06ACE6001B6329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD54E0A41D06ACE6001B6329 /* ADCC */,
+				BD54E0C01D06ACE7001B6329 /* ADCCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD54E0A31D06ACE6001B6329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD54E0E21D06AE52001B6329 /* LaunchScreen.storyboard in Resources */,
+				BD54E0E11D06AE52001B6329 /* Assets.xcassets in Resources */,
+				BD54E0E31D06AE52001B6329 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54E0BF1D06ACE7001B6329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42F3A4325BB55D40E54591B6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCC/Pods-ADCC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DA6B47A648971259074CF6A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADCC/Pods-ADCC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AB72BC878B888846E96FCA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD54E0A11D06ACE6001B6329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD54E0E81D06B095001B6329 /* AppDelegate.m in Sources */,
+				BD6CBE5F1D06BCA1003B2276 /* SGGlobal.m in Sources */,
+				BD54E0E01D06AE52001B6329 /* ViewController.m in Sources */,
+				BD54E0DF1D06AE52001B6329 /* ADCC.xcdatamodeld in Sources */,
+				BD54E0E41D06AE52001B6329 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD54E0BD1D06ACE7001B6329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD54E0C61D06ACE7001B6329 /* ADCCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD54E0C31D06ACE7001B6329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD54E0A41D06ACE6001B6329 /* ADCC */;
+			targetProxy = BD54E0C21D06ACE7001B6329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD54E0D91D06AE52001B6329 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD54E0DA1D06AE52001B6329 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BD54E0DB1D06AE52001B6329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD54E0DC1D06AE52001B6329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD54E0C81D06ACE7001B6329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD54E0C91D06ACE7001B6329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD54E0CB1D06ACE7001B6329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5564634B3840D48551AAF961 /* Pods-ADCC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ADCC/Global/ADCC-Prefix.pch";
+				INFOPLIST_FILE = ADCC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanguo.ADCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD54E0CC1D06ACE7001B6329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842ABD1BD0EB74977E440C78 /* Pods-ADCC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ADCC/Global/ADCC-Prefix.pch";
+				INFOPLIST_FILE = ADCC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanguo.ADCC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD54E0CE1D06ACE7001B6329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanguo.ADCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADCC.app/ADCC";
+			};
+			name = Debug;
+		};
+		BD54E0CF1D06ACE7001B6329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanguo.ADCCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADCC.app/ADCC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD54E0A01D06ACE6001B6329 /* Build configuration list for PBXProject "ADCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD54E0C81D06ACE7001B6329 /* Debug */,
+				BD54E0C91D06ACE7001B6329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD54E0CA1D06ACE7001B6329 /* Build configuration list for PBXNativeTarget "ADCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD54E0CB1D06ACE7001B6329 /* Debug */,
+				BD54E0CC1D06ACE7001B6329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD54E0CD1D06ACE7001B6329 /* Build configuration list for PBXNativeTarget "ADCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD54E0CE1D06ACE7001B6329 /* Debug */,
+				BD54E0CF1D06ACE7001B6329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD54E0D21D06AE52001B6329 /* ADCC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD54E0D31D06AE52001B6329 /* ADCC.xcdatamodel */,
+			);
+			currentVersion = BD54E0D31D06AE52001B6329 /* ADCC.xcdatamodel */;
+			path = ADCC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD54E09D1D06ACE6001B6329 /* Project object */;
+}
