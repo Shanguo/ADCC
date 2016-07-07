@@ -13,12 +13,13 @@
 #define SCREEN_BOUNDS ([UIScreen mainScreen].bounds)
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
-#define YScale (SCREEN_HEIGHT/568.0<1?1:SCREEN_HEIGHT/568.0)
-#define XScale (SCREEN_WIDTH/320.0)
+#define YScale (SCREEN_HEIGHT/736.0)
+#define XScale (SCREEN_WIDTH/414.0)
 
 // 状态栏、导航栏高度
 #define STATUS_BAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
-#define NAVIGATION_BAR_HEIGHT 44
+#define NAVIGATION_BAR_HEIGHT 44.0
+#define TAB_BAR_HEIGHT 49.0
 
 // 系统版本
 #define SYSTEM_VERSION [UIDevice currentDevice].systemVersion.floatValue
@@ -27,9 +28,12 @@
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)
 
+#define FontHelveticalNeue_B   @"HelveticaNeue-Bold"
+
 // 自定义Log
 #ifdef DEBUG
-# define DLog(format, ...) NSLog((@"[文件名:%s]" "[函数名:%s]" "[行号:%d]" format), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+//# define DLog(format, ...) NSLog((@"[文件名:%s]" "[函数名:%s]" "[行号:%d]" format), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+# define DLog(format, ...) NSLog((@"文件:%s" "-第%d行-->" format), __FILE__, __LINE__, ##__VA_ARGS__);
 #else
 # define DLog(...);
 #endif

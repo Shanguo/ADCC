@@ -10,5 +10,11 @@
 #define ADCCHeader_pch
 
 #import "SGDefine.h"
+#import "UIButton+SG.h"
+#import "UIView+SG.h"
+#import <UIImageView+WebCache.h>
+
+//Color
+#define COLOR_MAIN RGB(231,184,31)
 
 #endif /* ADCCHeader_pch */
